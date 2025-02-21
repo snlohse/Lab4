@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Add Mapbox tile layer mapbox://styles/lohses/cm7ci445c006301so30x77itk
     L.tileLayer('https://api.mapbox.com/styles/v1/lohses/cm7ci445c006301so30x77itk/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibG9oc2VzIiwiYSI6ImNtNnY0Ymt2aDA0cHkya3B5ZjZiMDFhbHUifQ.PbnaeqC0tz5auhy5sqjA5w', {
+        attribution: '© <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 17,
         tileSize: 512,
         zoomOffset: -1,
