@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 return {
                     color: "#ff10f0",   // Neon pink outline
                     weight: 1,
-                    opacity: 1,
+                    opacity: 0.4,
                     fillColor: "transparent",
                     fillOpacity: 0
                 };
